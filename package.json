@@ -1,5 +1,25 @@
 {
+  "name": "numberguessinggame",
+  "version": "1.0.0",
+  "description": "I created a number guessing game to generate a number between the range of 1 and 2. The game prompt users for their username. I set range as function parameter and prompt the player to predict the generated number between the given range. At a correct guess, the game awards the player a point and move them to stage 2 by increasing the range limit value by 1, e.g. range is from 1 and 3 for stage 2 and so on.",
+  "main": "index.js",
   "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+    "ansi-regex": "^4.1.1",
+    "prompt-sync": "^4.2.0",
+    "start": "^5.1.0",
+    "strip-ansi": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaacwrite/number-guessing-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Isaacwrite/number-guessing-game-"
 }
